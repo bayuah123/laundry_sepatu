@@ -265,27 +265,7 @@
                                     <i class='bx bx-cart-alt new__icon'></i>
                                 </button>
                             </div>
-        
-                            <div class="new__content swiper-slide">
 
-                                <img src="assets/img/new2-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Expert</h3>
-                                <span class="new__subtitle">Coba 6 Bulan</span>
-        
-                                <div class="new__prices">
-                                    <h3 class="new__price">Rp 60.000</h3>>
-                                </div>
-
-                                <div class="new__prices">
-                                <span class="new__subtitle">Unlimited Akun Admin</span>
-                               
-
-                                </div>
-
-                                <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
-                            </div>
         
                             
         

@@ -6,7 +6,6 @@ class Welcome extends CI_Controller{
 	function __construct() {
 		parent::__construct();
 		$this->load->library('form_validation');
-        $this->load->model('Subscription_model');
 	}
 	
 	function index() {
@@ -148,29 +147,6 @@ class Welcome extends CI_Controller{
 
         }
     }
-
-    public function subscribe() {
-        // Mendapatkan ID pengguna saat ini (sesuai dengan kebutuhan aplikasi Anda)
-        $userId = $this->session->userdata('user_id');
-
-        // Berlangganan pengguna selama 1 bulan
-        $this->data_user->subscribeUser($userId, 1);
-
-        // Redirect ke halaman lain atau tampilkan pesan
-        redirect('dashboard');
-    }
-
-    public function checkStatus() {
-        // Mendapatkan ID pengguna saat ini (sesuai dengan kebutuhan aplikasi Anda)
-        $userId = $this->session->userdata('user_id');
-
-        // Periksa status berlangganan pengguna
-        $status = $this->data_user->checkSubscriptionStatus($userId);
-
-        // Tampilkan status atau lakukan aksi lain sesuai kebutuhan
-        echo "Status berlangganan: $status";
-    }
-
 	function logout(){
 		$this->session->sess_destroy();
 		$this->load->view('header');
