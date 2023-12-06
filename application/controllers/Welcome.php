@@ -81,7 +81,7 @@ class Welcome extends CI_Controller{
                 } else {
                     // Masa aktif berakhir
                     $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
-                        Your account has expired. Please contact the administrator.
+                        Your account has expired. Please Subscribe.
                     </div>');
                     redirect('form_login');
                 }

@@ -1,6 +1,21 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+                    <?php
+                // echo '<pre>';
 
+                // print_r($user_posts);
+
+                //  foreach ($user_posts as $row) {
+                //      echo "Transaksi ID: " . $row->pengeluaran_id;
+                //      echo "<br>";
+                //      echo "Nama Pelanggan: " . $row->nama_karyawan;
+                //      echo "<br>";
+                //      echo "<br>";
+                //  }
+
+                // echo '</pre>';
+                // die();
+                ?>
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-flex justify-content-between">
@@ -18,7 +33,7 @@
                                     <thead>
                                         <tr class="">
                                             <th>#</th>
-                                            <th>Pengeluaran ID</th>
+                                            <th>ID. Pengeluaran</th>
                                             <th>Details</th>
                                             <th>Total</th>
                                             <th>Tanggal</th>

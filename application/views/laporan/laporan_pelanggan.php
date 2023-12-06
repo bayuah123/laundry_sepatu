@@ -39,9 +39,9 @@
                                         <tr class="">
                                             <th>No.</th>
                                             <th>ID</th>
-                                            <th>Customer's name</th>
-                                            <th>Address</th>
-                                            <th>Contact</th>
+                                            <th>Nama Customer</th>
+                                            <th>alamat</th>
+                                            <th>Kontak</th>
                                         </tr>
                                     </thead>
                                     <tbody>

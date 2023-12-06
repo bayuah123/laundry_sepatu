@@ -43,7 +43,8 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="#new" class="nav__link">Langganan</a>
+                        <a href="<?= site_url('langganan') ?>" class="nav__link"> Langganan</a>
+                        
                     </li>
 
                     <a href="<?= site_url('form_login') ?>" class="button button--ghost">Login</a>
@@ -83,7 +84,7 @@
 
                             <div class="home__data">
                                 <h3 class="home__subtitle">#1 Top Kasir Laundry Sepatu</h3>
-                                <h1 class="home__title">Kasir Laundry Sepatu</h1>
+                                <h2 class="home__title">ShoeLean</h2>
                                 <p class="home__description">Adalah Software Aplikasi Kasir Online untuk usaha laundy, bisa anda gunakan sebagai Gerai perorangan atau pun Mitra yang bisa anda Franchise kan.
                                     Anda dapat menggunakan aplikasi Londrian dimanapun dan kapanpun dengan mudah dan yang pasti dapat memonitoring penjualan Anda.
                                 </p>
@@ -129,29 +130,29 @@
 
         <!--==================== CATEGORY ====================-->
         <section class="section category" id="category">>
-            <h2 class="section__title">Fitur Utama <br> Shoclean</h2>
+            <h2 class="section__title">Fitur Utama <br> ShoeLean</h2>
 
             <div class="category__container container grid">
                 <div class="category__data">
-                    <img src="assets/img/category1-img.png" alt="" class="category__img">
+                    <!-- <img src="assets/img/category1-img.png" alt="" class="category__img"> -->
                     <h3 class="category__title">Tampilan</h3>
                     <p class="category__description">Memudahkan pemilik usaha dengan tampilan yang simple dan responsif baik saat anda gunakan pada mobile atau Dekstop</p>
                 </div>
 
                 <div class="category__data">
-                    <img src="assets/img/laporan.png" alt="" class="category__img">
+                    <!-- <img src="assets/img/laporan.png" alt="" class="category__img"> -->
                     <h3 class="category__title">Laporan </h3>
                     <p class="category__description">Tidak perlu repot melakukan pembukuan transaksi secara manual, karena semua rangkuman laba, omset, dan pengeluaran telah tercatat dan tersimpan secara online,</p>
                 </div>
 
                 <div class="category__data">
-                    <img src="assets/img/data-menagement.png" alt="" class="category__img">
+                    <!-- <img src="assets/img/data-menagement.png" alt="" class="category__img"> -->
                     <h3 class="category__title">Dashbord</h3>
                     <p class="category__description">Fitur untuk menampilkan hasil penjualan lengkap dengan grafik pernjualan harian, bulanan dan tahunan</p>
                 </div>
 
                 <div class="category__data">
-                    <img src="assets/img/report.png" alt="" class="category__img">
+                    <!-- <img src="assets/img/report.png" alt="" class="category__img"> -->
                     <h3 class="category__title">Rekap Data</h3>
                     <p class="category__description">Dilengkapi dengan fitur rekap data yang dapat anda unduh dengan format file pdf sebagai data offline anda</p>
                 </div>
@@ -166,7 +167,6 @@
                     <p class="about__description">Aplikasi laundry sepatu adalah software yang di khususkan bagi pengusaha laundry untuk membantu mengatur manajemen mulai dari : Transaksi laundry, record data pelanggan laundry,
                         record data order laundry, cetak nota laundry,laporan keuangan dan keuntungan laundry, laporan pengeluaran laundry.`
                     </p>
-                    <a href="#" class="button">Know more</a>
                 </div>
 
                 <img src="assets/img/about-img.png" alt="" class="about__img">
@@ -318,8 +318,6 @@
                 </div>
             </div>
 
-            <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
-            <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
         </footer>
 
         <!--=============== SCROLL UP ===============-->

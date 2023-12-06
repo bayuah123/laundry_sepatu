@@ -44,11 +44,11 @@
                                     <thead>
                                         <tr class="">
                                             <th>No.</th>
-                                            <th>ID</th>
-                                            <th>Employee Name</th>
-                                            <th>Address</th>
-                                            <th>Contact</th>
-                                            <th>Salary/month</th>
+                                            <th>ID. Karyawan</th>
+                                            <th>Nama Karyawan</th>
+                                            <th>Alamat</th>
+                                            <th>Alamat</th>
+                                            <th>Gaji</th>
                                             <th>Join</th>
                                             <th>End</th>
                                         </tr>
@@ -56,7 +56,7 @@
                                     <tbody>
                                         <?php
                                             $no = 1;
-                                            foreach ($data_karyawan as $karyawan) {
+                                            foreach ($user_posts as $karyawan) {
                                         ?>
                                         <tr>
                                             <th><?php echo $no++ ?></th>

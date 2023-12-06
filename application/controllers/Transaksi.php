@@ -160,6 +160,7 @@ class Transaksi extends CI_Controller {
 
 	public function laporan()
 	{
+		
 		$user['email'] = $this->session->userdata('email');
 		$this->load->view('header');
 		$this->load->view('navigation', $user);
@@ -171,7 +172,8 @@ class Transaksi extends CI_Controller {
 	public function laporan_filter()
 	{
 		$user['email'] = $this->session->userdata('email');
-
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
 		$dari = $this->input->post('dari');
 		$sampai = $this->input->post('sampai');
 
@@ -189,6 +191,8 @@ class Transaksi extends CI_Controller {
 		$dari = $this->uri->segment('3');
 		$sampai = $this->uri->segment('4');
 
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
 		$data['dari'] = $dari;
 		$data['sampai'] = $sampai;
 		$data['data_transaksi'] = $this->data_transaksi->filter($dari, $sampai)->result();
@@ -199,6 +203,8 @@ class Transaksi extends CI_Controller {
 	function print_nota() {	
 
 		$transaksi_id = $this->uri->segment('3');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
 
 		$where = array(
 			'transaksi_id' => $transaksi_id
@@ -210,6 +216,8 @@ class Transaksi extends CI_Controller {
 
 	function cetak_pdf() {
 		$this->load->library('dompdf_gen');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
 		
 		$dari = $this->uri->segment('3');
 		$sampai = $this->uri->segment('4');

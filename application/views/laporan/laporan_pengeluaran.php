@@ -39,11 +39,11 @@
                                     <thead>
                                         <tr class="">
                                             <th>#</th>
-                                            <th>Exp. ID</th>
+                                            <th>ID. Pengeluaran</th>
                                             <th>Detail</th>
                                             <th>Total</th>
                                             <th>Date</th>
-                                            <th>Employee PJ</th>
+                                            <th>Karyawan PJ</th>
                                         </tr>
                                     </thead>
                                     <tbody>

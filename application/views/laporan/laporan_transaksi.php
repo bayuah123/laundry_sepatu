@@ -39,10 +39,11 @@
                                     <thead>
                                         <tr class="">
                                             <th>#</th>
-                                            <th>Transc. ID</th>
+                                            <th>ID. Transaksi</th>
                                             <th>Customer</th>
-                                            <th>Employee</th>
-                                            <th>Weight</th>
+                                            <th>Karyawan</th>
+                                            <th>paket</th>
+                                            <th>Jumlah</th>
                                             <th>Total</th>
                                             <th>Order</th>
                                             <th>Finished</th>
@@ -64,8 +65,11 @@
                                                 <span class="row px-3  text-xs"><?php echo $transaksi->karyawan_id ?></span>
                                                 <span class="row px-3"><?php echo $transaksi->nama_karyawan ?></span>
                                             </td>
-                                            <td><?php echo $transaksi->paket ?></td>
-                                            <td><?php echo $transaksi->jumlah ?></td>
+                                            <td>
+                                                <span class="row px-3  text-xs"><?php echo $transaksi->paket_id ?></span>
+                                                <span class="row px-3"><?php echo $transaksi->nama_paket?></span>
+                                            </td>
+                                            <td><?php echo $transaksi->berat ?></td>
                                             <td>Rp<?php echo $transaksi->total ?></td>
                                             <td><?php echo $transaksi->tgl_order ?></td>
                                             <td><?php if ($transaksi->tgl_selesai == '0000-00-00') { echo '-'; } else { echo $transaksi->tgl_selesai; } ?></td>

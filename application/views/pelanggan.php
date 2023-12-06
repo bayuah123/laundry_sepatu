@@ -14,10 +14,10 @@
                                     <thead>
                                         <tr class="">
                                             <th>#</th>
-                                            <th>ID</th>
-                                            <th>Customer's Name<sup>(M/F)</sup></th>
-                                            <th>Address</th>
-                                            <th>Contact</th>
+                                            <th>ID. Customer</th>
+                                            <th>Nama Customer<sup>(L/P)</sup></th>
+                                            <th>Alamat</th>
+                                            <th>Kontak</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -76,11 +76,11 @@
                         <form name="form_add_mahasiswa" action="<?php echo base_url().'pelanggan/add' ?>" method="post" class="user needs-validation mx-3 mb-4" novalidate>
                             <div class="modal-body"> 
                                 <div class="form-group">
-                                    <label class="control-label ">ID</label>
+                                    <label class="control-label ">ID. Customer</label>
                                     <input type="text" class="form-control" placeholder="Customer ID" autofocus name="pelanggan_id" required readonly value="<?php echo $kode ?>">
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label ">Customer's Name</label>
+                                    <label class="control-label ">Nama Customer</label>
                                     <input type="text" class="form-control" title="Fill in the customer's name with letters" placeholder='Customers Name'  name="nama_pelanggan" pattern="[A-Za-z ]{1,50}" required>
                                     <div class="invalid-feedback">
                                     Fill in the customer's name with letters! (max. 50 letters)
@@ -91,8 +91,8 @@
                                     <label class="control-label ">Gender</label>
                                     <select class="form-control" name="jeniskelamin" pattern="[A-Za-z]{1,10}" required>
                                         <option value="">--Please Select--</option>
-                                        <option value="Male">Male</option>
-                                        <option value="Female">Female</option>
+                                        <option value="Laki-Laki">Laki-Laki</option>
+                                        <option value="Perempuan">Perempuan</option>
                                     </select>
                                     <div class="invalid-feedback">
                                     Choose the gender of the customer!
@@ -100,7 +100,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="control-label ">Address</label>
+                                    <label class="control-label ">Alamat</label>
                                     <input type="text"  class="form-control" placeholder='Address' name="alamat"  required>
                                     <div class="invalid-feedback">
                                     Enter the customer's address!
@@ -108,7 +108,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="control-label ">Mobile No.</label>
+                                    <label class="control-label ">No.Handphone</label>
                                     <input type="tel"  class="form-control" placeholder='Customer Mobile Number' name="no_hp"  pattern="[0-9]{11,15}" required>
                                     <div class="invalid-feedback">
                                     Fill in No. Customer phone!
@@ -133,7 +133,7 @@
                 <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title font-weight-bold  mx-3 mt-3" id="formEditPelangganLabel">Change Customer Data</h5>
+                            <h5 class="modal-title font-weight-bold  mx-3 mt-3" id="formEditPelangganLabel">Edit Data Customer</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -141,13 +141,13 @@
                         <form name="form_edit_mahasiswa" action="<?php echo base_url().'pelanggan/edit' ?>" method="post" class="user needs-validation mx-3 mb-4" novalidate>
                             <div class="modal-body"> 
                                 <div class="form-group">
-                                    <label class="control-label ">ID</label>
+                                    <label class="control-label ">ID. Customer</label>
                                     <input type="text" class="form-control" placeholder="Customer ID" autofocus name="pelanggan_id" value="<?php echo $pelanggan->pelanggan_id ?>" readonly>
                                 </div>
                                 <hr>
 
                                 <div class="form-group">
-                                    <label class="control-label ">Customer's Name</label>
+                                    <label class="control-label ">Nama Customer</label>
                                     <input type="text" class="form-control" title="Fill in the customer's name with letters" placeholder='Customers Name'  name="nama_pelanggan" pattern="[A-Za-z ]{1,50}" value="<?php echo $pelanggan->nama_pelanggan ?>" required>
                                     <div class="invalid-feedback">
                                     Fill in the customer's name with letters! (max. 50 letters)
@@ -159,8 +159,8 @@
                                     <label class="control-label ">Gender</label>
                                     <select class="form-control" name="jeniskelamin" pattern="[A-Za-z]{1,10}" required>
                                         <option value="">--Please Select--</option>
-                                        <option value="Male" <?php if ($pelanggan->jeniskelamin === 'Male') { echo "selected"; } ?>>Male</option>
-                                        <option value="Female" <?php if ($pelanggan->jeniskelamin === 'Female') { echo "selected"; } ?>>Female</option>
+                                        <option value="Laki-Laki" <?php if ($pelanggan->jeniskelamin === 'Laki-Laki') { echo "selected"; } ?>>Laki-Laki</option>
+                                        <option value="Perempuan" <?php if ($pelanggan->jeniskelamin === 'Perempuan') { echo "selected"; } ?>>Perempuan</option>
                                     </select>
                                     <div class="invalid-feedback">
                                     Choose the gender of the customer!
@@ -169,16 +169,16 @@
                                 <hr>
 
                                 <div class="form-group">
-                                    <label class="control-label ">Address</label>
-                                    <input type="text"  class="form-control" placeholder='Address' name="alamat"  value="<?php echo $pelanggan->alamat ?>" required>
+                                    <label class="control-label ">Alamat</label>
+                                    <input type="text"  class="form-control" placeholder='Alamat' name="alamat"  value="<?php echo $pelanggan->alamat ?>" required>
                                     <div class="invalid-feedback">
                                     Enter the customer's address!
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="control-label ">Mobile No.</label>
-                                    <input type="tel"  class="form-control" placeholder='Mobile No.' name="no_hp" pattern="[0-9]{11,15}" value="<?php echo $pelanggan->no_hp ?>" required>
+                                    <label class="control-label ">No.Hanphone</label>
+                                    <input type="tel"  class="form-control" placeholder='No.Hanphone.' name="no_hp" pattern="[0-9]{11,15}" value="<?php echo $pelanggan->no_hp ?>" required>
                                     <div class="invalid-feedback">
                                     Fill in No. Customer phone!
                                     </div>

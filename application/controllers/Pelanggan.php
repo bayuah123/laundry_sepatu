@@ -105,6 +105,7 @@ class Pelanggan extends CI_Controller {
 
 	public function laporan()
 	{
+		$useri = $this->session->userdata('user_id');
 		$user['email'] = $this->session->userdata('email');
 		$this->load->view('header');
 		$this->load->view('navigation', $user);
@@ -116,6 +117,8 @@ class Pelanggan extends CI_Controller {
 	public function laporan_filter()
 	{
 		$user['email'] = $this->session->userdata('email');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pelanggan->getPostsByUser($useri);
 		
 		$jeniskelamin = $this->input->post('jeniskelamin');
 
@@ -135,6 +138,8 @@ class Pelanggan extends CI_Controller {
 	function print() {	
 
 		$jeniskelamin = $this->uri->segment('3');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pelanggan->getPostsByUser($useri);
 
 		$data['jeniskelamin'] = $jeniskelamin;
 		if ($jeniskelamin == "Semua") {
@@ -148,6 +153,8 @@ class Pelanggan extends CI_Controller {
 
 	function cetak_pdf() {
 		$this->load->library('dompdf_gen');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pelanggan->getPostsByUser($useri);
 		
 		$jeniskelamin = $this->uri->segment('3');
 

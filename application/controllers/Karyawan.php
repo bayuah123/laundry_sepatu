@@ -132,6 +132,7 @@ class Karyawan extends CI_Controller {
 
 	public function laporan()
 	{
+		$useri = $this->session->userdata('user_id');
 		$user['email'] = $this->session->userdata('email');
 		$this->load->view('header');
 		$this->load->view('navigation', $user);
@@ -143,6 +144,8 @@ class Karyawan extends CI_Controller {
 	public function laporan_filter()
 	{
 		$user['email'] = $this->session->userdata('email');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_karyawan->getPostsByUser($useri);
 
 		$dari = $this->input->post('dari');
 		$sampai = $this->input->post('sampai');
@@ -157,7 +160,9 @@ class Karyawan extends CI_Controller {
 	}
 
 	function print() {	
-
+		
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_karyawan->getPostsByUser($useri);
 		$dari = $this->uri->segment('3');
 		$sampai = $this->uri->segment('4');
 

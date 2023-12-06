@@ -54,5 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['form_login'] = 'welcome/login';
+$route['langganan'] = 'Langganan';
 
 

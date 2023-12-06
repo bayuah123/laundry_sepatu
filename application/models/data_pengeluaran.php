@@ -40,10 +40,14 @@ class Data_pengeluaran extends CI_Model {
 		$this->db->where($where);
 		return $this->db->delete($table);
 	}
-	public function getPengeluaranByUserId($user_id) {
-        $this->db->where('user_id', $user_id);
-        $query = $this->db->get('pengeluaran');
-        return $query->result_array();
+	public function getPengeluaranByUser($user) {
+		$this->db->select('pengeluaran.*, karyawan.nama_karyawan,');
+		$this->db->from('pengeluaran');
+		$this->db->join('karyawan', 'karyawan.karyawan_id = pengeluaran.karyawan_id');
+		$this->db->where('pengeluaran.user_id', $user);
+		$this->db->order_by('pengeluaran.pengeluaran_id', 'desc');
+		
+		return $this->db->get()->result();
     }
 
 	public function total_gaji(){
@@ -57,4 +61,10 @@ class Data_pengeluaran extends CI_Model {
 
 	    return $result[0]->total_pengeluaran;
 	}
+
+	public function getPengeluaranByUserId($user_id) {
+        $this->db->where('user_id', $user_id);
+        $query = $this->db->get('pengeluaran');
+        return $query->result_array();
+    }
 }

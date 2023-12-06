@@ -6,6 +6,7 @@ class Pengeluaran extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->library('form_validation');
+		$this->session->userdata('user_id');
 		$this->load->model('data_pengeluaran');
 		$this->load->model('data_karyawan');
 	}
@@ -14,9 +15,9 @@ class Pengeluaran extends CI_Controller {
 	{
 		$user['email'] = $this->session->userdata('email');
 		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pengeluaran->getPengeluaranByUser($useri);
 		$data['data_pengeluaran'] = $this->data_pengeluaran->get_data()->result();
 		$data['data_karyawan'] = $this->data_karyawan->getKaryawanByUserId($useri);
-		$data['user_posts'] = $this->data_pengeluaran->getPostsByUser($useri);
 		$this->load->view('header');
 		$this->load->view('navigation', $user);
 		$this->load->view('pengeluaran', $data);
@@ -170,7 +171,8 @@ class Pengeluaran extends CI_Controller {
 	public function laporan_filter()
 	{
 		$user['email'] = $this->session->userdata('email');
-
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pengeluaran->getPostsByUser($useri);
 		$dari = $this->input->post('dari');
 		$sampai = $this->input->post('sampai');
 
@@ -188,6 +190,8 @@ class Pengeluaran extends CI_Controller {
 		$dari = $this->uri->segment('3');
 		$sampai = $this->uri->segment('4');
 
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pengeluaran->getPostsByUser($useri);
 		$data['dari'] = $dari;
 		$data['sampai'] = $sampai;
 		$data['data_pengeluaran'] = $this->data_pengeluaran->filter($dari, $sampai)->result();
@@ -197,6 +201,8 @@ class Pengeluaran extends CI_Controller {
 
 	function cetak_pdf() {
 		$this->load->library('dompdf_gen');
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_pengeluaran->getPostsByUser($useri);
 		
 		$dari = $this->uri->segment('3');
 		$sampai = $this->uri->segment('4');
