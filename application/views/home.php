@@ -195,7 +195,6 @@
                 <div class="swiper new-swiper">
                     <div class="swiper-wrapper">
 
-
                         <div class="new__content swiper">
                             <div class="new__tag">PROMO</div>
                             <img src="assets/img/new6-img.png" alt="" class="new__img">
@@ -216,9 +215,6 @@
                             </button>
                         </div>
 
-
-
-
                         <div class="new__content swiper">
                             
                             <img src="assets/img/new1-img.png" alt="" class="new__img">
@@ -230,16 +226,11 @@
                             </div>
                             <br>           
                             <div class="new__prices">
-                                <p class="new__subtitle">Unlimited Akun Admin</p>
-                            </div>
-                            <div class="new__prices">
-                                <p class="new__subtitle">Mendapatkan Fitur Laporan</p>
-                            </div>
-                            <div class="new__prices">
-                                <p class="new__subtitle">Unlimited Akun </p>
+                                <p class="new__subtitle">Unlimited Akun Admin<br>
+                                Mendapatkan Fitur Laporan<br>Unlimited Input Data</p>
                             </div>
                             <button class="button new__button">
-                                <i class='bx bx-cart-alt new__icon'></i>
+                                Langganan
                             </button>
                         </div>
 
@@ -257,10 +248,10 @@
                 <div class="footer__content">
                     <a href="#" class="footer__logo">
                         <img src="assets/img/sepatu2.png" alt="" class="footer__logo-img">
-                        Halloween
+                        Shoclean
                     </a>
 
-                    <p class="footer__description">Enjoy the scariest night <br> of your life.</p>
+                    <p class="footer__description">Software Laundry Sepatu</p>
 
                     <div class="footer__social">
                         <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
@@ -280,13 +271,16 @@
 
                     <ul class="footer__links">
                         <li>
-                            <a href="#" class="footer__link">About Us</a>
+                            <a href="#" class="footer__link">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="footer__link">Features</a>
+                            <a href="#category" class="footer__link">Fitur</a>
                         </li>
                         <li>
-                            <a href="#" class="footer__link">News</a>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#new" class="footer__link">Langganan</a>
                         </li>
                     </ul>
                 </div>

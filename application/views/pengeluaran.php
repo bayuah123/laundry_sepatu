@@ -94,16 +94,17 @@
                                     <select class="form-control" name="karyawan_id" required>
                                         <option value="">--Please Select--</option>
                                         <?php
-                                            foreach ($data_karyawan as $karyawan) {
-                                                if ($karyawan->aktif == 1) {
+                                            foreach ($data_karyawan as $row) {                                            
                                         ?>
-                                        <option value="<?php echo $karyawan->karyawan_id ?>">
-                                            <?php echo $karyawan->karyawan_id.' '.$karyawan->nama_karyawan ?>
-                                        </option>
-                                        <?php }} ?>
+
+                                        <option value="<?php echo $row['karyawan_id'] ?>">
+                                            <?php echo $row['nama_karyawan'] ?>
+                                        </option>   
+
+                                        <?php } ?>
                                     </select>
                                     <div class="invalid-feedback">
-                                    Choose employee identity!
+                                        Choose employee identity!
                                     </div>
                                 </div>
  
@@ -127,7 +128,7 @@
             <!-- Modal for editing existing data -->
             <?php
                 $no = 1;
-                foreach ($data_pengeluaran as $pengeluaran) {
+                foreach ($user_posts as $pengeluaran) {
             ?>
             <div class="modal fade" id="editPengeluaran<?php echo $no ?>" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="formEditPengeluaran" aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered">

@@ -13,8 +13,9 @@ class Pengeluaran extends CI_Controller {
 	public function index()
 	{
 		$user['email'] = $this->session->userdata('email');
-		$data['data_pengeluaran'] = $this->data_pengeluaran->get_data()->result();
 		$useri = $this->session->userdata('user_id');
+		$data['data_pengeluaran'] = $this->data_pengeluaran->get_data()->result();
+		$data['data_karyawan'] = $this->data_karyawan->getKaryawanByUserId($useri);
 		$data['user_posts'] = $this->data_pengeluaran->getPostsByUser($useri);
 		$this->load->view('header');
 		$this->load->view('navigation', $user);

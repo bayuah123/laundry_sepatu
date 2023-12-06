@@ -2061,3 +2061,711 @@ ERROR - 2023-12-06 12:17:13 --> Severity: Warning --> Attempt to read property "
 ERROR - 2023-12-06 12:17:13 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
 ERROR - 2023-12-06 12:17:13 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
 DEBUG - 2023-12-06 12:17:13 --> Total execution time: 0.1889
+DEBUG - 2023-12-06 20:11:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:11:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:11:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:11:43 --> Total execution time: 0.1394
+DEBUG - 2023-12-06 20:13:09 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:13:09 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:13:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:13:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:13:09 --> Total execution time: 0.0821
+DEBUG - 2023-12-06 20:13:09 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:13:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:13:10 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:13:10 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:13:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:13:10 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:14:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:14:42 --> Total execution time: 0.0962
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:14:42 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> No URI present. Default controller set.
+ERROR - 2023-12-06 20:14:42 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:14:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:14:42 --> Total execution time: 0.1521
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:14:42 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:14:42 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:14:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:42 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:14:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:14:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:14:42 --> Total execution time: 0.1626
+DEBUG - 2023-12-06 20:14:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:14:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:14:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:14:43 --> 404 Page Not Found: Assets/img
+ERROR - 2023-12-06 20:14:43 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:15:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:15:00 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:15:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:15:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:15:00 --> Total execution time: 0.1078
+DEBUG - 2023-12-06 20:15:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:15:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:15:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:15:00 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:15:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:15:00 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:15:01 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:15:01 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:15:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:15:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:15:01 --> Total execution time: 0.0833
+DEBUG - 2023-12-06 20:15:01 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:15:01 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:15:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:15:01 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:15:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:15:01 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:17 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:17 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:16:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:16:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:16:17 --> Total execution time: 0.1031
+DEBUG - 2023-12-06 20:16:17 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:17 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:17 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:17 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:17 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:17 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:18 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:18 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:16:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:16:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:16:18 --> Total execution time: 0.0924
+DEBUG - 2023-12-06 20:16:18 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:18 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:18 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:18 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:42 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:16:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:16:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:16:42 --> Total execution time: 0.0791
+DEBUG - 2023-12-06 20:16:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:42 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:42 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:58 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:58 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:16:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:16:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:16:59 --> Total execution time: 0.1107
+DEBUG - 2023-12-06 20:16:59 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:59 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:16:59 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:16:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:16:59 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:17:32 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:17:32 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:17:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:17:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:17:32 --> Total execution time: 0.0807
+DEBUG - 2023-12-06 20:17:32 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:17:32 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:17:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:17:32 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:17:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:17:32 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:23:09 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:23:09 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:23:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:23:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:23:09 --> Total execution time: 0.0965
+DEBUG - 2023-12-06 20:23:09 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:23:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:23:09 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:23:09 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:23:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:23:09 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:24:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:24:39 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:24:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:24:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:24:39 --> Total execution time: 0.1087
+DEBUG - 2023-12-06 20:24:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:24:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:24:39 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 20:24:39 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:24:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:24:40 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:27:01 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:27:01 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:27:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:27:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:27:01 --> Total execution time: 0.0924
+DEBUG - 2023-12-06 20:27:01 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:27:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:27:01 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:27:01 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:27:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:27:01 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:36:59 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:36:59 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:36:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:36:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:36:59 --> Total execution time: 0.0982
+DEBUG - 2023-12-06 20:36:59 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:36:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:36:59 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:36:59 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:37:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:37:00 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:37:33 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:37:33 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:37:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:37:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:37:33 --> Total execution time: 0.1167
+DEBUG - 2023-12-06 20:37:33 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:37:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:37:33 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 20:37:33 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:37:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:37:33 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:38:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:38:08 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:38:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:38:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:38:08 --> Total execution time: 0.0825
+DEBUG - 2023-12-06 20:38:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:38:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:38:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:38:08 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:38:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:38:08 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:39:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:39:06 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:39:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:39:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:39:06 --> Total execution time: 0.1028
+DEBUG - 2023-12-06 20:39:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:39:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:39:06 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:39:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:39:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:39:06 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:42:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:42:45 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:42:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:42:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:42:45 --> Total execution time: 0.0852
+DEBUG - 2023-12-06 20:42:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:42:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:42:45 --> 404 Page Not Found: Assets/css
+DEBUG - 2023-12-06 20:43:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:43:00 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:43:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:43:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:43:00 --> Total execution time: 0.0896
+DEBUG - 2023-12-06 20:43:31 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:43:31 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:43:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:43:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:43:32 --> Total execution time: 0.2138
+DEBUG - 2023-12-06 20:44:05 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:05 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:44:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:44:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:44:05 --> Total execution time: 0.0999
+DEBUG - 2023-12-06 20:44:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:06 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:06 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:28 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:44:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:44:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:44:28 --> Total execution time: 0.0854
+DEBUG - 2023-12-06 20:44:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:44:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:28 --> 404 Page Not Found: Assets/img
+ERROR - 2023-12-06 20:44:28 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:29 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:44:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:44:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:44:29 --> Total execution time: 0.0895
+DEBUG - 2023-12-06 20:44:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:30 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:30 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:30 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:30 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:44:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:44:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:44:30 --> Total execution time: 0.1010
+DEBUG - 2023-12-06 20:44:30 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:30 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:30 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:31 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:39 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:44:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:44:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:44:39 --> Total execution time: 0.1289
+DEBUG - 2023-12-06 20:44:40 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:40 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:44:40 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:44:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:44:40 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:45:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:45:03 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:45:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:45:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:45:03 --> Total execution time: 0.0955
+DEBUG - 2023-12-06 20:45:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:45:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:45:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:45:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:45:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:45:04 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:45:50 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:45:50 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:45:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:45:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:45:50 --> Total execution time: 0.1212
+DEBUG - 2023-12-06 20:45:50 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:45:50 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:45:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:45:50 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:45:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:45:50 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:46:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:46:03 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:46:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:46:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:46:03 --> Total execution time: 0.0970
+DEBUG - 2023-12-06 20:46:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:46:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:46:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:46:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:46:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:46:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:48:41 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:48:41 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:48:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:48:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:48:41 --> Total execution time: 0.1041
+DEBUG - 2023-12-06 20:48:41 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:48:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:48:41 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 20:48:41 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:48:41 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:48:41 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:48:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:48:45 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:48:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:48:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:48:45 --> Total execution time: 0.0821
+DEBUG - 2023-12-06 20:48:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:48:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:48:45 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 20:48:45 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:48:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:48:45 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:48:55 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:48:55 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:48:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:48:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:48:55 --> Total execution time: 0.0900
+DEBUG - 2023-12-06 20:48:55 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:48:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:48:55 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 20:48:55 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:48:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:48:55 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:49:23 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:49:23 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:49:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:49:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:49:24 --> Total execution time: 0.1060
+DEBUG - 2023-12-06 20:49:24 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:49:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:49:24 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:49:24 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:49:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:49:24 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:50:48 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:50:48 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:50:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:50:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:50:48 --> Total execution time: 0.1158
+DEBUG - 2023-12-06 20:50:48 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:50:48 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:50:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:50:48 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:50:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:50:48 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:00 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:51:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:51:00 --> Total execution time: 0.0993
+DEBUG - 2023-12-06 20:51:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:01 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 20:51:01 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:51:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:51:01 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:51:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:03 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:51:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:51:03 --> Total execution time: 0.1188
+DEBUG - 2023-12-06 20:51:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:51:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:51:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:51:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:51:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:03 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:51:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:51:04 --> Total execution time: 0.2266
+DEBUG - 2023-12-06 20:51:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:51:04 --> 404 Page Not Found: Assets/img
+ERROR - 2023-12-06 20:51:04 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:51:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:04 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:51:04 --> Total execution time: 0.1847
+DEBUG - 2023-12-06 20:51:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:51:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:51:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:51:04 --> 404 Page Not Found: Assets/img
+ERROR - 2023-12-06 20:51:04 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:52:35 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:52:35 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:52:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:52:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:52:35 --> Total execution time: 0.0969
+DEBUG - 2023-12-06 20:52:35 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:52:35 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:52:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:52:35 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:52:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:52:35 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 20:53:31 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:53:31 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 20:53:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:53:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 20:53:31 --> Total execution time: 0.0879
+DEBUG - 2023-12-06 20:53:31 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:53:31 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 20:53:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 20:53:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 20:53:31 --> 404 Page Not Found: Assets/img
+ERROR - 2023-12-06 20:53:31 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:08:27 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:08:27 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:08:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:08:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:08:27 --> Total execution time: 0.1128
+DEBUG - 2023-12-06 21:08:27 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:08:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:08:27 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 21:08:27 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:08:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:08:27 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:08:48 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:08:48 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:08:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:08:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:08:48 --> Total execution time: 0.1060
+DEBUG - 2023-12-06 21:08:49 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:08:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:08:49 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:08:49 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:08:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:08:49 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:09:05 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:09:05 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:09:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:09:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:09:05 --> Total execution time: 0.0873
+DEBUG - 2023-12-06 21:09:05 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:09:05 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:09:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:09:05 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:09:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:09:06 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:09:56 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:09:56 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:09:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:09:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:09:56 --> Total execution time: 0.0855
+DEBUG - 2023-12-06 21:09:56 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:09:56 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:09:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:09:56 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:09:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:09:56 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:10:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:10:29 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:10:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:10:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:10:29 --> Total execution time: 0.1044
+DEBUG - 2023-12-06 21:10:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:10:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:10:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:10:29 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:10:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:10:29 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:11:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:11:46 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:11:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:11:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:11:46 --> Total execution time: 0.0930
+DEBUG - 2023-12-06 21:11:46 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:11:46 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:11:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:11:46 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:11:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:11:46 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:13:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:13:03 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:13:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:13:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:13:03 --> Total execution time: 0.0898
+DEBUG - 2023-12-06 21:13:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:13:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:13:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:13:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:13:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:13:03 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:13:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:13:43 --> No URI present. Default controller set.
+DEBUG - 2023-12-06 21:13:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:13:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:13:43 --> Total execution time: 0.1528
+DEBUG - 2023-12-06 21:13:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:13:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:13:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:13:43 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:13:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-06 21:13:43 --> 404 Page Not Found: Assets/img
+DEBUG - 2023-12-06 21:14:23 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:14:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:14:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:14:23 --> Total execution time: 0.1687
+DEBUG - 2023-12-06 21:14:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:14:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:14:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:14:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:14:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:14:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:14:39 --> Total execution time: 0.1398
+DEBUG - 2023-12-06 21:14:49 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:14:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:14:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:14:49 --> Severity: Warning --> Undefined variable $data_karyawan C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 97
+ERROR - 2023-12-06 21:14:49 --> Severity: Warning --> foreach() argument must be of type array|object, null given C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 97
+DEBUG - 2023-12-06 21:14:49 --> Total execution time: 0.1616
+DEBUG - 2023-12-06 21:19:35 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:19:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:19:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:19:35 --> Severity: Warning --> Attempt to read property "aktif" on array C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 98
+ERROR - 2023-12-06 21:19:35 --> Severity: Warning --> Attempt to read property "aktif" on array C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 98
+ERROR - 2023-12-06 21:19:35 --> Severity: Warning --> Attempt to read property "aktif" on array C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 98
+DEBUG - 2023-12-06 21:19:35 --> Total execution time: 0.1354
+DEBUG - 2023-12-06 21:19:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:19:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:19:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:19:43 --> Total execution time: 0.1399
+DEBUG - 2023-12-06 21:19:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:19:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:19:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:19:44 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+DEBUG - 2023-12-06 21:19:44 --> Total execution time: 0.2449
+DEBUG - 2023-12-06 21:26:31 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:26:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:26:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+DEBUG - 2023-12-06 21:26:31 --> Total execution time: 0.1989
+DEBUG - 2023-12-06 21:26:31 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:26:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:26:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:31 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+DEBUG - 2023-12-06 21:26:32 --> UTF-8 Support Enabled
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+DEBUG - 2023-12-06 21:26:32 --> Total execution time: 0.3550
+DEBUG - 2023-12-06 21:26:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:26:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 230
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "pelanggan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_pelanggan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 231
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 247
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "karyawan_id" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+ERROR - 2023-12-06 21:26:32 --> Severity: Warning --> Attempt to read property "nama_karyawan" on array C:\xampp\htdocs\ci_laundry\application\views\transaksi.php 248
+DEBUG - 2023-12-06 21:26:32 --> Total execution time: 0.3453
+DEBUG - 2023-12-06 21:26:35 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:26:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:26:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:26:35 --> Total execution time: 0.0906
+DEBUG - 2023-12-06 21:26:37 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:26:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:26:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:26:38 --> Total execution time: 0.1114
+DEBUG - 2023-12-06 21:27:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:27:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:27:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2023-12-06 21:27:00 --> UTF-8 Support Enabled
+DEBUG - 2023-12-06 21:27:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-06 21:27:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2023-12-06 21:27:00 --> Severity: Warning --> Undefined property: stdClass::$nama_karyawan C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 43
+ERROR - 2023-12-06 21:27:00 --> Severity: Warning --> Attempt to read property "aktif" on array C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 168
+ERROR - 2023-12-06 21:27:00 --> Severity: Warning --> Attempt to read property "aktif" on array C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 168
+ERROR - 2023-12-06 21:27:00 --> Severity: Warning --> Attempt to read property "aktif" on array C:\xampp\htdocs\ci_laundry\application\views\pengeluaran.php 168
+DEBUG - 2023-12-06 21:27:00 --> Total execution time: 0.0949

@@ -40,6 +40,11 @@ class Data_pengeluaran extends CI_Model {
 		$this->db->where($where);
 		return $this->db->delete($table);
 	}
+	public function getPengeluaranByUserId($user_id) {
+        $this->db->where('user_id', $user_id);
+        $query = $this->db->get('pengeluaran');
+        return $query->result_array();
+    }
 
 	public function total_gaji(){
 		$result = $this->db->query("select sum(gaji_perbulan) as total_gaji from karyawan where aktif = 1")->result();

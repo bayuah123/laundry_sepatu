@@ -7,23 +7,23 @@
 
   /*========== Colors ==========*/
   --hue: 14;
-  --first-color: hsl(var(--hue),  91%, 54%);
+  --first-color: hsl(var(--hue), 91%, 54%);
   --first-color-alt: hsl(var(--hue), 91%, 50%);
   --title-color: hsl(var(--hue), 4%, 100%);
   --text-color: hsl(var(--hue), 4%, 85%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
 
   /*Green gradient*/
- /* --body-color: linear-gradient(90deg, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 100%) 100%);
-  --container-color: linear-gradient(136deg, hsl(0, 69%, 50%) 0%, hsl(0, 28%, 35%) 100%);*
+  /* --body-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+  --container-color: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%); */
   
   /*Red gradient*/
   /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
-  --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%); 
+  --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%); */
 
-  /*Black solid*/
-  --body-color: hsl(220, 66%, 48%);
-  --container-color: hsl(226, 100%, 31%);
+  /* Black solid */
+  --body-color: hsl(207, 85%, 43%);
+  --container-color: hsl(246, 84%, 62%);
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -390,7 +390,7 @@ button{
 
 /*=============== CATEGORY ===============*/
 .category__container{
-  grid-template-columns: repeat(5, 2fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem 2rem;
 }
 
@@ -525,10 +525,10 @@ button{
 }
 
 .new__content{
-  position: absolute;
+  position: relative;
   background: var(--container-color);
   width: 242px;
-  padding: 20px;
+  padding: 2rem 0 2rem 0;
   border-radius: .75rem;
   text-align: center;
   overflow: hidden;
@@ -536,7 +536,7 @@ button{
 
 .new__tag{
   position: absolute;
-  top: 8%;
+  top: 8%;  
   left: 8%;
   background-color: var(--first-color);
   color: var(--title-color);
