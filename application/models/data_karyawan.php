@@ -45,7 +45,7 @@ class Data_karyawan extends CI_Model {
 	public function getKaryawanByUserId($user_id) {
         $this->db->where('user_id', $user_id);
         $query = $this->db->get('karyawan');
-        return $query->row_array();
+        return $query->result_array();
     }
 
 }

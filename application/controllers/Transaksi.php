@@ -16,12 +16,13 @@ class Transaksi extends CI_Controller {
 	public function index()
 	{
 		$useri = $this->session->userdata('user_id');
-		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
+		$data['user_posts'] = $this->data_transaksi->getTransaksiByUser($useri);
 		$data['data_karyawan'] = $this->data_karyawan->getKaryawanByUserId($useri);
 		$user['email'] = $this->session->userdata('email');
+		$data['data_paket'] = $this->data_paket->getPaketByUserId($useri);
 		$data['data_transaksi'] = $this->data_transaksi->get_data()->result();
-		$data['data_pelanggan'] = $this->data_pelanggan->get_data()->result();
-		$data['data_paket'] = $this->data_paket->get_data()->result();
+		$data['data_pelanggan'] = $this->data_pelanggan->getPelangganByUserId($useri);
+		
 		$this->load->view('header');
 		$this->load->view('navigation', $user);
 		$this->load->view('transaksi', $data);
@@ -53,6 +54,8 @@ class Transaksi extends CI_Controller {
 		$where = array(
 			'transaksi_id' => $transaksi_id
 		);
+
+		$data_paket = $this->data_paket->getPaketById($paket_id)->row();
 		$records = $this->data_transaksi->get_records($where)->result();
 
 		if (count($records) == 0) {
@@ -62,6 +65,7 @@ class Transaksi extends CI_Controller {
 				'karyawan_id' => $karyawan_id,
 				'paket_id' => $paket_id,
 				'berat' => $berat,
+				'total' => $berat * $data_paket->harga,
 				'tgl_order' => $tgl_order,
 				'tgl_selesai' => $tgl_selesai,
 				'user_id' => $user_id

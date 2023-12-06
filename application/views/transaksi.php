@@ -5,12 +5,20 @@
                 
                 // echo '<pre>';
 
-                // foreach ($data_karyawan as $row)
+                // // print_r($user_posts);
+
+                // foreach ($user_posts as $row) {
+                //     echo "Transaksi ID: " . $row->transaksi_id;
+                //     echo "<br>";
+                //     echo "Nama Pelanggan: " . $row->nama_pelanggan;
+                //     echo "<br>";
+                //     echo "<br>";
+                // }
 
                 // echo '</pre>';
                 // die();
-                
-                // ?>
+            
+                ?>
 
                 <div>
                     <!-- DataTales Example -->
@@ -64,8 +72,8 @@
                                                 <span class="row px-3  text-xs"><?php echo $transaksi->paket_id ?></span>
                                                 <span class="row px-3"><?php echo $transaksi->nama_paket?></span>
                                             </td>
-                                            <td><?php echo $transaksi->jumlah ?></td>
-                                            <td>Rp<?php echo $transaksi->jumlah * $transaksi->harga ?></td>
+                                            <td><?php echo $transaksi->berat ?></td>
+                                            <td>Rp<?php echo $transaksi->total ?></td>
                                             <td><?php echo $transaksi->tgl_order ?></td>
                                             <td><?php if ($transaksi->tgl_selesai == '0000-00-00') { echo '-'; } else { echo $transaksi->tgl_selesai; } ?></td>
                                             <td class="action-icons text-center">
@@ -115,9 +123,9 @@
                                     <select class="form-control" name="pelanggan_id" required>                                   
                                         <option value="">--Please Select--</option>
                                         <?php 
-                                                foreach ($data_pelanggan as $pelanggan) {?>
-                                        <option value="<?php echo $pelanggan->pelanggan_id ?>">
-                                            <?php echo $pelanggan->pelanggan_id.' '.$pelanggan->nama_pelanggan ?>
+                                                foreach ($data_pelanggan as $row) {?>
+                                        <option value="<?php echo $row['pelanggan_id'] ?>">
+                                            <?php echo $row['nama_pelanggan'] ?>
                                         </option>
                                         <?php } ?>
                                     </select>
@@ -127,18 +135,18 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="control-label ">Employee</label>
+                                    <label class="control-label ">Karyawan</label>
                                     <select class="form-control" name="karyawan_id" required>
                                         <option value="">--Please Select--</option>
                                         <?php
                                             foreach ($data_karyawan as $row) {                                            
-
-                                                if ($row->aktif == 1) {
                                         ?>
-                                        <option value="<?php echo $row->karyawan_id ?>">
-                                            <?php echo $row->nama_karyawan ?>
-                                        </option>
-                                        <?php }} ?>
+
+                                        <option value="<?php echo $row['karyawan_id'] ?>">
+                                            <?php echo $row['nama_karyawan'] ?>
+                                        </option>   
+
+                                        <?php } ?>
                                     </select>
                                     <div class="invalid-feedback">
                                         Choose employee identity!
@@ -150,10 +158,10 @@
                                     <select class="form-control" name="paket_id" required>
                                         <option value="">--Please Select--</option>
                                         <?php
-                                            foreach ($data_paket as $paket) {
+                                            foreach ($data_paket as $row) {
                                         ?>
-                                        <option value="<?php echo $paket->paket_id ?>">
-                                            <?php echo $paket->nama_paket ?>
+                                        <option value="<?php echo $row['paket_id']?>">
+                                            <?php echo $row['nama_paket'] ?>
                                         </option>
                                         <?php } ?>
                                     </select>

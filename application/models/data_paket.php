@@ -41,4 +41,14 @@ class Data_paket extends CI_Model {
 		return $this->db->delete($table);
 	}
 
+	public function getPaketByUserId($user_id) {
+        $this->db->where('user_id', $user_id);
+        $query = $this->db->get('paket');
+        return $query->result_array();
+    }
+
+	public function getPaketById($paket_id) {
+        $this->db->where('paket_id', $paket_id);
+        return $this->db->get('paket');
+    }
 }

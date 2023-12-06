@@ -40,4 +40,9 @@ class Data_pelanggan extends CI_Model {
 		return $this->db->delete($table);
 	}
 
+	public function getPelangganByUserId($user_id) {
+        $this->db->where('user_id', $user_id);
+        $query = $this->db->get('pelanggan');
+        return $query->result_array();
+    }
 }

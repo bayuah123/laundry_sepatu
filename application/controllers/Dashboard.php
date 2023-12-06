@@ -16,16 +16,16 @@ class Dashboard extends CI_Controller {
 
 	public function index()
 	{
+		$useri = $this->session->userdata('user_id');
 		$user['email'] = $this->session->userdata('email');
 		$total_pendapatan = $this->data_transaksi->total_income_year();
 		$total_pengeluaran = $this->data_pengeluaran->total_spend_year();
 		$total_keuntungan = $total_pendapatan - $total_pengeluaran;
 		
 		$data = array(
-					'n_karyawan' => number_format($this->data_karyawan->count_rows()),
-					'n_pelanggan' => number_format($this->data_pelanggan->count_rows()),
-					'n_transaksi' => number_format($this->data_transaksi->count_rows()),
-					'n_transaksi_aktif' => number_format($this->data_transaksi->count_active()),
+					'n_karyawan' => count($this->data_karyawan->getKaryawanByUserId($useri)),
+					'n_pelanggan' => count($this->data_pelanggan->getPelangganByUserId($useri)),
+					'n_transaksi' => count($this->data_transaksi->getTransaksiByUserId($useri)),
 					'total_pendapatan' => ($total_pendapatan > 0) ? number_format($total_pendapatan, 2) : '0.000' ,
 					'total_pengeluaran' => ($total_pengeluaran > 0) ? number_format($total_pengeluaran, 2) : '0.000',
 					'total_keuntungan' => is_numeric($total_keuntungan)? number_format($total_keuntungan, 2) : "0.000"

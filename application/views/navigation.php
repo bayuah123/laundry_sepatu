@@ -98,7 +98,6 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="<?php echo base_url()?>karyawan/laporan">Karyawan</a>
                         <a class="collapse-item" href="<?php echo base_url()?>pelanggan/laporan">Customer</a>
-                        <a class="collapse-item" href="<?php echo base_url()?>paket/laporan">Paket</a>
                         <a class="collapse-item" href="<?php echo base_url()?>transaksi/laporan">Transaksi</a>
                         <a class="collapse-item" href="<?php echo base_url()?>pengeluaran/laporan">Pengeluaran</a>
                     </div>
