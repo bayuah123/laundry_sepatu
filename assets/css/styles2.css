@@ -515,7 +515,7 @@ button{
 
 /*=============== NEW ARRIVALS ===============*/
 .new__container{
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .new__img{
@@ -525,10 +525,10 @@ button{
 }
 
 .new__content{
-  position: relative;
+  position: absolute;
   background: var(--container-color);
   width: 242px;
-  padding: 2rem 0 1.5rem 0;
+  padding: 20px;
   border-radius: .75rem;
   text-align: center;
   overflow: hidden;

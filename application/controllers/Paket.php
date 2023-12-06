@@ -30,6 +30,8 @@ class Paket extends CI_Controller {
 		$paket_id = $this->input->post('paket_id');
 		$nama_paket = $this->input->post('nama_paket');
 		$harga = $this->input->post('harga');
+		$user_id = $this->session->userdata('user_id');
+
 
 		$this->load->view('header');
 
@@ -39,6 +41,7 @@ class Paket extends CI_Controller {
 				'paket_id' => $paket_id,
 				'nama_paket' => $nama_paket,
 				'harga' => $harga,
+				'user_id' => $user_id,
 
 			);
 			$action = $this->data_paket->insert_data($data,'paket');

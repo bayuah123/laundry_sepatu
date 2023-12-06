@@ -17,6 +17,7 @@
                                             <th>ID</th>
                                             <th>Nama Paket</th>
                                             <th>Harga</th>
+                                            <th>Action</th>
 
                                         </tr>
                                     </thead>
@@ -30,7 +31,7 @@
                                                 $kode = 'P000';
                                             } else {
                                                 $last_id = (int) substr($data_paket[$n_paket-1]->paket_id, 3, 1);
-                                                $kode = 'P00'.($last_id + 2);
+                                                $kode = 'P001'.($last_id + 2);
                                             }
                                             foreach ($user_posts as $paket) {
                                             

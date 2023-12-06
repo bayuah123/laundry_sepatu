@@ -38,10 +38,10 @@ class Karyawan extends CI_Controller {
 		$tgl_berhenti = $this->input->post('tgl_berhenti');
 		$user_id = $this->session->userdata('user_id');
 
-		$aktif = 0;
+		$aktif = 1;
 
 		if ($tgl_berhenti == null) {
-			$aktif = 1;
+			$aktif = 0;
 		}
 
 		$this->load->view('header');
@@ -57,8 +57,8 @@ class Karyawan extends CI_Controller {
 				'gaji_perbulan' => $gaji_perbulan,
 				'tgl_bergabung' => $tgl_bergabung,
 				'tgl_berhenti' => $tgl_berhenti,
-				'user_id' => $user_id,
-				'aktif' => $aktif
+				'aktif' => $aktif,
+				'user_id' => $user_id
 			);
 			$action = $this->data_karyawan->insert_data($data,'karyawan');
 			$this->load->view('notifications/insert_success', $info);	

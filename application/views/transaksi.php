@@ -1,6 +1,17 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+                <?php
+                
+                // echo '<pre>';
+
+                // foreach ($data_karyawan as $row)
+
+                // echo '</pre>';
+                // die();
+                
+                // ?>
+
                 <div>
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
@@ -53,8 +64,8 @@
                                                 <span class="row px-3  text-xs"><?php echo $transaksi->paket_id ?></span>
                                                 <span class="row px-3"><?php echo $transaksi->nama_paket?></span>
                                             </td>
-                                            <td><?php echo $transaksi->berat ?></td>
-                                            <td>Rp<?php echo $transaksi->berat * $transaksi->harga ?></td>
+                                            <td><?php echo $transaksi->jumlah ?></td>
+                                            <td>Rp<?php echo $transaksi->jumlah * $transaksi->harga ?></td>
                                             <td><?php echo $transaksi->tgl_order ?></td>
                                             <td><?php if ($transaksi->tgl_selesai == '0000-00-00') { echo '-'; } else { echo $transaksi->tgl_selesai; } ?></td>
                                             <td class="action-icons text-center">
@@ -97,14 +108,14 @@
                             </button>
                         </div>
                         <form name="form_add_transaksi" action="<?php echo base_url().'transaksi/add' ?>" method="post" class="user needs-validation mx-3 mb-4" novalidate>
+
                             <div class="modal-body"> 
                                 <div class="form-group">
                                     <label class="control-label ">Customer</label>
-                                    <select class="form-control" name="pelanggan_id" required>
+                                    <select class="form-control" name="pelanggan_id" required>                                   
                                         <option value="">--Please Select--</option>
-                                        <?php
-                                            foreach ($data_pelanggan as $pelanggan) {
-                                        ?>
+                                        <?php 
+                                                foreach ($data_pelanggan as $pelanggan) {?>
                                         <option value="<?php echo $pelanggan->pelanggan_id ?>">
                                             <?php echo $pelanggan->pelanggan_id.' '.$pelanggan->nama_pelanggan ?>
                                         </option>
@@ -120,11 +131,12 @@
                                     <select class="form-control" name="karyawan_id" required>
                                         <option value="">--Please Select--</option>
                                         <?php
-                                            foreach ($data_karyawan as $karyawan) {
-                                                if ($karyawan->aktif == 1) {
+                                            foreach ($data_karyawan as $row) {                                            
+
+                                                if ($row->aktif == 1) {
                                         ?>
-                                        <option value="<?php echo $karyawan->karyawan_id ?>">
-                                            <?php echo $karyawan->karyawan_id.' '.$karyawan->nama_karyawan ?>
+                                        <option value="<?php echo $row->karyawan_id ?>">
+                                            <?php echo $row->nama_karyawan ?>
                                         </option>
                                         <?php }} ?>
                                     </select>
@@ -183,7 +195,7 @@
             <!-- Modal for editing existing data -->
             <?php
                 $no = 1;
-                foreach ($data_transaksi as $transaksi) {
+                foreach ($user_posts as $transaksi) {
             ?>
             <div class="modal fade" id="editTransaksi<?php echo $no ?>" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="formEditTransaksi" aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -223,12 +235,11 @@
                                         <option value="">--Please Select--</option>
                                         <?php
                                             foreach ($data_karyawan as $karyawan) {
-                                                if ($karyawan->aktif == 1) {
                                         ?>
                                         <option value="<?php echo $karyawan->karyawan_id ?>" <?php if ($karyawan->karyawan_id === $transaksi->karyawan_id) { echo "selected"; } ?>>
                                             <?php echo $karyawan->karyawan_id.' '.$karyawan->nama_karyawan ?>
                                         </option>
-                                        <?php }} ?>
+                                        <?php } ?>
                                     </select>
                                     <div class="invalid-feedback">
                                         Choose employee identity!

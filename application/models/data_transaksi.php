@@ -6,7 +6,7 @@ class Data_transaksi extends CI_Model {
 	public function get_data() {
 		$this->db->select('*');
 		$this->db->from('transaksi');
-		$this->db->join('pelanggan', 'pelanggan.pelanggan_id = transaksi.pelanggan_id');
+		$this->db->join('pelanggan', 'pelanggan.pelanggan_id = transaksi.pelanggan_id' );
 		$this->db->join('karyawan', 'karyawan.karyawan_id = transaksi.karyawan_id');
 		$this->db->join('paket', 'paket.paket_id = transaksi.paket_id');
 		$this->db->order_by('transaksi_id', 'desc');
@@ -18,6 +18,7 @@ class Data_transaksi extends CI_Model {
         return $this->db->get('transaksi')->result();
     }
 	
+
 	public function count_rows() {
 		return $this->db->count_all('transaksi');
 	}
@@ -69,4 +70,5 @@ class Data_transaksi extends CI_Model {
 
 	    return $result[0]->total_pendapatan;
 	}
+	
 }

@@ -6,6 +6,7 @@ class Transaksi extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->library('form_validation');
+		$this->session->userdata('user_id');
 		$this->load->model('data_transaksi');
 		$this->load->model('data_pelanggan');
 		$this->load->model('data_karyawan');
@@ -14,13 +15,13 @@ class Transaksi extends CI_Controller {
 
 	public function index()
 	{
+		$useri = $this->session->userdata('user_id');
+		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
+		$data['data_karyawan'] = $this->data_karyawan->getKaryawanByUserId($useri);
 		$user['email'] = $this->session->userdata('email');
 		$data['data_transaksi'] = $this->data_transaksi->get_data()->result();
 		$data['data_pelanggan'] = $this->data_pelanggan->get_data()->result();
-		$data['data_karyawan'] = $this->data_karyawan->get_data()->result();
 		$data['data_paket'] = $this->data_paket->get_data()->result();
-		$useri = $this->session->userdata('user_id');
-		$data['user_posts'] = $this->data_transaksi->getPostsByUser($useri);
 		$this->load->view('header');
 		$this->load->view('navigation', $user);
 		$this->load->view('transaksi', $data);
@@ -32,6 +33,7 @@ class Transaksi extends CI_Controller {
 	{
 		$info['datatype'] = 'transaksi';
 		$info['operation'] = 'Input';
+
 		
 		$pelanggan_id = $this->input->post('pelanggan_id');
 		$karyawan_id = $this->input->post('karyawan_id');

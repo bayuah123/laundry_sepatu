@@ -6,7 +6,8 @@ class Dashboard extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$user['email'] = $this->session->userdata('email');
+		$this->session->userdata('user_id');
+
 		$this->load->model('data_karyawan');
 		$this->load->model('data_pelanggan');
 		$this->load->model('data_transaksi');
@@ -19,6 +20,7 @@ class Dashboard extends CI_Controller {
 		$total_pendapatan = $this->data_transaksi->total_income_year();
 		$total_pengeluaran = $this->data_pengeluaran->total_spend_year();
 		$total_keuntungan = $total_pendapatan - $total_pengeluaran;
+		
 		$data = array(
 					'n_karyawan' => number_format($this->data_karyawan->count_rows()),
 					'n_pelanggan' => number_format($this->data_pelanggan->count_rows()),

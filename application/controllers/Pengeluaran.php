@@ -71,7 +71,7 @@ class Pengeluaran extends CI_Controller {
 		$detail = 'Employee Salary Payment '.date('F Y');
 		$total = $this->data_pengeluaran->total_gaji();;
 		$tgl_pengeluaran = date('Y-m-d');
-		$karyawan_id = 'K000'; //Bu Rindu
+		$karyawan_id = 'K001'; //Bu Rindu
 
 		$pengeluaran_id = date('YmdHis');
 

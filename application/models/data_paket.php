@@ -9,7 +9,7 @@ class Data_paket extends CI_Model {
 	}
 
 	public function count_rows() {
-		return $this->db->count_all('paker');
+		return $this->db->count_all('paket');
 	}
 
 	public function getPostsByUser($user) {
