@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="<?= site_url('langganan') ?>" class="nav__link"> Langganan</a>
+                        <a href="#new" class="nav__link"> Langganan</a>
                         
                     </li>
 
@@ -147,7 +147,7 @@
 
                 <div class="category__data">
                     <!-- <img src="assets/img/data-menagement.png" alt="" class="category__img"> -->
-                    <h3 class="category__title">Dashbord</h3>
+                    <h3 class="category__title">Dashboard</h3>
                     <p class="category__description">Fitur untuk menampilkan hasil penjualan lengkap dengan grafik pernjualan harian, bulanan dan tahunan</p>
                 </div>
 
@@ -178,8 +178,8 @@
         <section class="section discount">
             <div class="discount__container container grid">
                 <div class="discount__data">
-                    <h2 class="discount__title">Disain Menarik</h2>
-                    <span> Aplikasi Shoeclean memiliki tampilan yang menarik dan kekinian.
+                    <h2 class="discount__title">Design Menarik</h2>
+                    <span> Aplikasi ShoeLean memiliki tampilan yang menarik dan kekinian.
                         <br>Dimana dan kapanpun anda bisa melakukan cek laundry anda.</span>
                 </div>
 
@@ -210,9 +210,9 @@
                                 <span class="new__subtitle">Unlimited Akun Admin</span>
                             </div>
 
-                            <button class="button new__button">
+                            <a href="<?= site_url('Welcome/register') ?>"button class="button new__button">
                                 Langganan
-                            </button>
+                            </a>
                         </div>
 
                         <div class="new__content swiper">
@@ -229,9 +229,9 @@
                                 <p class="new__subtitle">Unlimited Akun Admin<br>
                                 Mendapatkan Fitur Laporan<br>Unlimited Input Data</p>
                             </div>
-                            <button class="button new__button">
+                            <a href="<?= site_url('langganan') ?>"button class="button new__button">
                                 Langganan
-                            </button>
+                            </a>
                         </div>
 
 

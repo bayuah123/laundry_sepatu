@@ -34,90 +34,78 @@ class Snap extends CI_Controller {
     }
 
     public function token()
-    {
-		
-		// Required
-		$transaction_details = array(
-		  'order_id' => rand(),
-		  'gross_amount' => 94000, // no decimal allowed for creditcard
-		);
+{
+    // Required
+    $transaction_details = array(
+        'order_id' => rand(),
+        'gross_amount' => 50000, // Harga per transaksi
+    );
 
-		// Optional
-		$item1_details = array(
-		  'id' => 'a1',
-		  'price' => 18000,
-		  'quantity' => 3,
-		  'name' => "Apple"
-		);
+    // Optional
+    $item_details = array(
+        array(
+            'id' => 'premium_membership',
+            'price' => 50000, // Harga per item
+            'quantity' => 1, // Quantity satu item
+            'name' => "Premium Membership",
+        )
+    );
 
-		// Optional
-		$item2_details = array(
-		  'id' => 'a2',
-		  'price' => 20000,
-		  'quantity' => 2,
-		  'name' => "Orange"
-		);
+    // Optional
+    $billing_address = array(
+        'first_name'    => "Faiz",
+        'last_name'     => "Agil",
+        'address'       => "Mangga 20",
+        'city'          => "Jakarta",
+        'postal_code'   => "16602",
+        'phone'         => "081122334455",
+        'country_code'  => 'IDN'
+    );
 
-		// Optional
-		$item_details = array ($item1_details, $item2_details);
+    // Optional
+    $shipping_address = array(
+        'first_name'    => "Obet",
+        'last_name'     => "Supriadi",
+        'address'       => "Amikom",
+        'city'          => "Yogyakarta",
+        'postal_code'   => "16601",
+        'phone'         => "08113366345",
+        'country_code'  => 'IDN'
+    );
 
-		// Optional
-		$billing_address = array(
-		  'first_name'    => "Andri",
-		  'last_name'     => "Litani",
-		  'address'       => "Mangga 20",
-		  'city'          => "Jakarta",
-		  'postal_code'   => "16602",
-		  'phone'         => "081122334455",
-		  'country_code'  => 'IDN'
-		);
+    // Optional
+    $customer_details = array(
+        'first_name'    => "Faiz",
+        'last_name'     => "Agil",
+        'email'         => "FaizAgil@gmail.com",
+        'phone'         => "081122334455",
+        'billing_address'  => $billing_address,
+        'shipping_address' => $shipping_address
+    );
 
-		// Optional
-		$shipping_address = array(
-		  'first_name'    => "Obet",
-		  'last_name'     => "Supriadi",
-		  'address'       => "Manggis 90",
-		  'city'          => "Jakarta",
-		  'postal_code'   => "16601",
-		  'phone'         => "08113366345",
-		  'country_code'  => 'IDN'
-		);
+    // Data yang akan dikirim untuk request redirect_url.
+    $credit_card['secure'] = true;
 
-		// Optional
-		$customer_details = array(
-		  'first_name'    => "Andri",
-		  'last_name'     => "Litani",
-		  'email'         => "andri@litani.com",
-		  'phone'         => "081122334455",
-		  'billing_address'  => $billing_address,
-		  'shipping_address' => $shipping_address
-		);
+    $time = time();
+    $custom_expiry = array(
+        'start_time' => date("Y-m-d H:i:s O", $time),
+        'unit' => 'minute',
+        'duration'  => 2
+    );
 
-		// Data yang akan dikirim untuk request redirect_url.
-        $credit_card['secure'] = true;
-        //ser save_card true to enable oneclick or 2click
-        //$credit_card['save_card'] = true;
+    $transaction_data = array(
+        'transaction_details' => $transaction_details,
+        'item_details' => $item_details,
+        'customer_details' => $customer_details,
+        'credit_card' => $credit_card,
+        'expiry' => $custom_expiry
+    );
 
-        $time = time();
-        $custom_expiry = array(
-            'start_time' => date("Y-m-d H:i:s O",$time),
-            'unit' => 'minute', 
-            'duration'  => 2
-        );
-        
-        $transaction_data = array(
-            'transaction_details'=> $transaction_details,
-            'item_details'       => $item_details,
-            'customer_details'   => $customer_details,
-            'credit_card'        => $credit_card,
-            'expiry'             => $custom_expiry
-        );
-
-		error_log(json_encode($transaction_data));
-		$snapToken = $this->midtrans->getSnapToken($transaction_data);
-		error_log($snapToken);
-		echo $snapToken;
-    }
+    error_log(json_encode($transaction_data));
+    $snapToken = $this->midtrans->getSnapToken($transaction_data);
+    error_log($snapToken);
+    echo $snapToken;
+}
 
     public function finish()
     {

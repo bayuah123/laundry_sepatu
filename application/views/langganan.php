@@ -15,75 +15,115 @@
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles2.css">
-    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+
+
+    <script type="text/javascript"
+            src="https://app.sandbox.midtrans.com/snap/snap.js"
+            data-client-key="SB-Mid-client-YIeoV_QmZDpZ1Mki"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <title>Berlangganan</title>
 </head>
 <body>
-    <!--==================== NEW ARRIVALS ====================-->
-        <section class="section new" id="new">
-            <h2 class="section__title">Coba Sekarang </h2>
+     <!--==================== HEADER ====================-->
+     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/sepatu2.png" alt="" class="nav__logo-img">
+                SHOELEAN
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                    <a href="<?= site_url('./') ?>" class="nav__link">Home</a>
+                    </li>
+                </ul>
 
-            <div class="new__container container">
-                <div class="swiper new-swiper">
-                    <div class="swiper-wrapper">
-
-
-                        <div class="new__content swiper">
-                            <div class="new__tag">PROMO</div>
-                            <img src="assets/img/new6-img.png" alt="" class="new__img">
-                            <h3 class="new__title">Pemula</h3>
-                            <span class="new__subtitle">Coba 1 Bulan</span>
-
-                            <div class="new__prices">
-                                <h2 class="new__price">Gratis</h2>
-                                <h3 class="new__discount">Rp 20.000</h3>
-                            </div>
-
-                            <div class="new__prices">
-                                <span class="new__subtitle">Unlimited Akun Admin</span>
-                            </div>
-
-                            <button class="button new__button">
-                                Langganan
-                            </button>
-                        </div>
-
-                        <div class="new__content swiper">
-                            
-                            <img src="assets/img/new1-img.png" alt="" class="new__img">
-                            <h3 class="new__title">Pro</h3>
-                            <span class="new__subtitle">Coba 6 Bulan</span>
-
-                            <div class="new__prices">
-                                <h3 class="new__price">Rp 50.000</h3>
-                            </div>
-                            <br>           
-                            <div class="new__prices">
-                                <p class="new__subtitle">Unlimited Akun Admin</p>
-                            </div>
-                            <div class="new__prices">
-                                <p class="new__subtitle">Mendapatkan Fitur Laporan</p>
-                            </div>
-                            <div class="new__prices">
-                                <p class="new__subtitle">Unlimited Akun </p>
-                            </div>
-                            <button class="button new__button">
-                                <i class='bx bx-cart-alt new__icon'></i>
-                            </button>
-                        </div>
-
-                    </div>
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
                 </div>
-            </div>
-        </section>
 
+                <img src="assets/img/nav-img.png" alt="" class="nav__img">
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+
+        </nav>
+    </header>
+    <!--==================== ABOUT ====================-->
+    <section class="section about" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Memasuki Tahap Pembayaran!</h2>
+                    <p class="about__description">
+                        Anda tinggal satu langkah lagi untuk menyelesaikan pembelian Anda. Lakukan pembayaran sekarang ya ...
+                        Terima kasih :3
+                        </p>
+                        <button id="pay-button" class="button">Pay!</button>
+                        </div>
+                            <img src="assets/img/about-img.png" alt="" class="about__img">
+                        </div>
+                        <form id="payment-form" method="post" action="<?=site_url()?>/snap/finish">
+                        <input type="hidden" name="result_type" id="result-type" value=""></div>
+                        <input type="hidden" name="result_data" id="result-data" value=""></div>
+                        </form>
+                  
+            </section>
+
+            <script type="text/javascript">
+                $('#pay-button').click(function (event) {
+                    event.preventDefault();
+                    $(this).attr("disabled", "disabled");
+                    
+                    $.ajax({
+                        url: '<?=site_url()?>/snap/token',
+                        cache: false,
+
+                        success: function(data) {
+                            console.log('token = '+data);
+                            
+                            var resultType = document.getElementById('result-type');
+                            var resultData = document.getElementById('result-data');
+
+                            function changeResult(type,data){
+                                $("#result-type").val(type);
+                                $("#result-data").val(JSON.stringify(data));
+                            }
+
+                            snap.pay(data, {
+                                onSuccess: function(result){
+                                    changeResult('success', result);
+                                    console.log(result.status_message);
+                                    console.log(result);
+                                    window.location.href = "<?= base_url('Welcome/register'); ?>";
+                                    
+                                },
+                                onPending: function(result){
+                                    changeResult('pending', result);
+                                    console.log(result.status_message);
+                                    $("#payment-form").submit();
+                                    window.location.href = "<?= base_url('Welcome/register'); ?>";
+                                },
+                                onError: function(result){
+                                    changeResult('error', result);
+                                    console.log(result.status_message);
+                                    $("#payment-form").submit();
+                                }
+                            });
+                        }
+                    });
+                });
+            </script>
+
+            
         <a href="#" class="scrollup" id="scroll-up">
             <i class='bx bx-up-arrow-alt scrollup__icon'></i>
         </a>
 
         <!--=============== SCROLL REVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+        <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
 
         <!--=============== SWIPER JS ===============-->
         <script src="assets/js/swiper-bundle.min.js"></script>
